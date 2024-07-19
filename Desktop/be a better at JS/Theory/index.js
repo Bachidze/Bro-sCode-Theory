@@ -7,8 +7,6 @@
 //     document.getElementById("myLabel").innerHTML ="hello" + username
 // }
 
-
-
 // #2 ფრომფთში რა ასაკსაც გადავცემთ უმატებს ერთს და გილოცავს.
 // #2 x,y,z JavaScript-ის ტიპები(არასრული)
 
@@ -18,7 +16,6 @@ age += 1
 
 
 console.log("Happy Birthday! You are",age,"Years Old") */
-
 
 /* let x
 let y
@@ -30,8 +27,6 @@ z = Boolean("")
 console.log(x, typeof x)
 console.log(y, typeof y)
 console.log(z, typeof z) */
-
-
 
 // #3 const-რომელიც არ იცვლება
 // #3 რადიუსის ფორმულა C=2pr
@@ -47,9 +42,7 @@ circumference = 2 * p * radius
 
 console.log("The circumference is:", circumference) */
 
-
 // #4 Math
-
 
 // let x = 3.14
 // let y = 5
@@ -57,11 +50,10 @@ console.log("The circumference is:", circumference) */
 // let maximum
 // let minimum
 
-
 // x = Math.round(x) // მათემატიკურად ამრგვალებს 3.1 = 3 || 3.5 = 4
 // x = Math.floor(x) // ყოველთვის ამრგვალებს ნაკლებობისკენ 3.9 = 3
 // x = Math.ceil(x) // ყოველთვის ამრგვალებს მეტობისკენ 3.1 = 4
-// x = Math.pow(x,3) // მეორე პარამეტრად გადაეცემა რიცხვი,რომელზეც მრავლდება
+// x = Math.pow(x,3) // მეორე პარამეტრად, რომელ რიცხვსაც გადავცემთ იმ ხარისხში აიყვანს
 // x = Math.sqrt(x) // იღებს ფესვს
 //x = Math.abs(x) // ნეგატივი რიცხვი გადაჰყავს დადებითში
 
@@ -74,5 +66,73 @@ console.log("The circumference is:", circumference) */
 // console.log(minimum)
 // console.log(x)
 
+// #5 hypotenuse calc practice program
 
+// let a;
+// let b;
+// let c;
 
+/* a = window.prompt("Enter side A")
+a = Number(a)
+
+b = window.prompt("Enter side B")
+b = Number(b)
+
+c = Math.sqrt(Math.pow(a,2) + Math.pow(b,2))
+
+console.log("Side C:",c) */
+
+// show example in DOM
+
+// document.getElementById("Submit").onclick = function () {
+//   a = document.getElementById("aTxt").value;
+//   a = Number(a);
+
+//   b = document.getElementById("bTxt").value;
+//   b = Number(b);
+
+//   c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+
+//   document.getElementById("cLabel").innerHTML = 'Side C:' + c
+
+//   console.log("Side C:", c);
+// };
+
+// #6 Counter Program
+
+// let count = 0
+
+// document.getElementById("decreasebtn").onclick = function(){
+//     count -=1
+//     document.getElementById("countLabel").innerHTML = count
+// }
+// document.getElementById("resetbtn").onclick = function(){
+//     count = 0
+//     document.getElementById("countLabel").innerHTML = count
+// }
+// document.getElementById("increasebtn").onclick = function(){
+//     count +=1
+//     document.getElementById("countLabel").innerHTML = count
+// }
+
+// #7 random number generator
+
+/* let x 
+let y 
+let z 
+
+document.getElementById("rollbutton").onclick = function () {
+   x = Math.floor(Math.random() * 6) + 1;
+   y = Math.floor(Math.random() * 6) + 1;
+   z = Math.floor(Math.random() * 6) + 1;
+
+   document.getElementById("xlabel").innerHTML = x
+   document.getElementById("ylabel").innerHTML = y
+   document.getElementById("zlabel").innerHTML = z
+
+   if(x === y && y === z){
+    document.getElementById("jack").innerHTML = "You Won Jackpot"
+   }else{
+     document.getElementById("jack").innerHTML = "try again"
+   }
+}; */
