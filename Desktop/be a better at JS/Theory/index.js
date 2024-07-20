@@ -136,3 +136,21 @@ document.getElementById("rollbutton").onclick = function () {
      document.getElementById("jack").innerHTML = "try again"
    }
 }; */
+
+
+
+// #8 useful string properties & methods
+
+// let userName = "Bro Code"
+// let phoneNumber ="123-456-789"
+
+// console.log(userName.length) აკონსოლებს სტრინგის სიგრძეს
+// console.log(userName.charAt(0)) რა რიცხვსაც გადავცემთ შესაბამისად ნუმერაციით რომელი ასოც შეესაბამება იმას დააკონსოლებს
+// console.log(userName.indexOf("o")) იგივეს აკეთებს რასაც charAt უბრალოდ რიცხვის მაგივრად გადავცემთ ასოს(string)-ს
+// console.log(userName.lastIndexOf("o")) მაგალითად თუ სტრინგში გვაქვს რი ერთნაირი ასო ან სამი ან ათი ბოლოს ინდექსს აიღებს და დააკნსოლებს ნუმერაციით მერამდენეც იქნება
+// userName = userName.trim() იმ შემთხვევაში თუ გვაქვს ასეთი შემთხვევა "   giorgi   " ჩვენი JavaScript აღიქვამს ამ დაშორებებს როგორც სიგრძედ და length-ის გაგების დროს შეგვიყვანს შეცდომაში Trim() გვაზღვევს ამისგან და ამ დაშორებებს(space)-ეებს არ აძლევს უფლებას რომ სტრინგის ნაწილი იყოს
+//userName = userName.toUpperCase() სტრინგი გადაყავს დიდ ასოებში
+//userName = userName.toLowerCase() სტრინგი გადაყავს პატარა ასოებში
+//phoneNumber = phoneNumber.replaceAll("-","/") პირველ პარამეტრად ვატანთ იმას რაც გვინდა რომ შეიცვალოს და მეორე პარამეტრად იმას რითიც გვინდა რომ შეიცვალოს
+
+// console.log(phoneNumber)
