@@ -137,8 +137,6 @@ document.getElementById("rollbutton").onclick = function () {
    }
 }; */
 
-
-
 // #8 useful string properties & methods
 
 // let userName = "Bro Code"
@@ -154,3 +152,49 @@ document.getElementById("rollbutton").onclick = function () {
 //phoneNumber = phoneNumber.replaceAll("-","/") პირველ პარამეტრად ვატანთ იმას რაც გვინდა რომ შეიცვალოს და მეორე პარამეტრად იმას რითიც გვინდა რომ შეიცვალოს
 
 // console.log(phoneNumber)
+
+// #9 string slicing
+// Slice() იღებს სტრიქონის მონაკვეთს და აბრუნებს ახალ სტრიქონს ისე რომ ორიგინალ სტრინქონს არ უკეტებს მდიფიკაციას
+
+// let FullName = "Snoop Dogg"
+// let firstname
+// let lastname
+
+// firstname = FullName.slice(0,3)
+// lastname = FullName.slice(4)
+
+// firstname = FullName.slice(0,FullName.indexOf(" "))
+// lastname = FullName.slice(FullName.indexOf(" ") + 1)
+
+// console.log(firstname)
+// console.log(lastname)
+
+// #10 methd chaining = calling one method after another in one continious line of code
+
+// let userName = "bro"
+
+// let letter = userName.charAt(0).charAt().toUpperCase().trim()
+
+// console.log(letter)
+
+// #11 if Statement
+
+// let age = 65;
+
+// if (age >= 65) {
+//   console.log("you are a senior citizen!");
+// } else if (age >= 18) {
+//   console.log("you are a senior adult!")
+// }else if(age <0){
+//   console.log("You haven't been born yet!");
+// }else {
+//   console.log("you are a child!");
+// }
+
+// let online = true;
+
+// if (online) {
+//   console.log("you are online");
+// } else {
+//   console.log("  you are offline");
+// }
