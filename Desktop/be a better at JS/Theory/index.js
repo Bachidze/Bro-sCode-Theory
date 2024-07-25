@@ -169,7 +169,7 @@ document.getElementById("rollbutton").onclick = function () {
 // console.log(firstname)
 // console.log(lastname)
 
-// #10 methd chaining = calling one method after another in one continious line of code
+// #10 method chaining = calling one method after another in one continious line of code
 
 // let userName = "bro"
 
@@ -198,3 +198,68 @@ document.getElementById("rollbutton").onclick = function () {
 // } else {
 //   console.log("  you are offline");
 // }
+
+
+
+// #11 chcked property
+
+// document.getElementById("myButton").onclick = function(){
+//   const isChecked = document.getElementById("myCheckBox")
+//   const visa = document.getElementById("visaBtn")
+//   const master = document.getElementById("masterBtn")
+//   const paypal = document.getElementById("PayPalBtn")
+//   if(isChecked.checked){
+//     console.log("You are Subscribed")
+//   }else{
+//     console.log("You are not Subscribed")
+//   }
+
+//   if(visa.checked){
+//     console.log("you are paying with visa")
+//   }else if(master.checked){
+//     console.log("you are paying with master")
+//   }else if(paypal.checked){
+//     console.log("you are paying with Paypal")
+//   }else{
+//     console.log("You must select a payment type!")
+//   }
+// }
+
+
+// #12 Switch/Case
+
+
+// let grade = "D"
+// switch(grade){
+//   case "A":
+//     console.log("You did great!")
+//     break;
+//   case "B":
+//     console.log("You did good")
+//     break;
+//   case "C":
+//     console.log("You did okay!")
+//     break;
+//   case "D":
+//     console.log("You passed ... barely!")
+//     break;
+//   case "F":
+//     console.log("You FAILED!")
+//     break;
+//     default:
+//       console.log(grade, "Is not a letter grade")
+// }
+
+
+
+// #13 and or logical operators
+/* 
+let temp = 15
+let sunny = true
+
+if(temp > 0 && temp < 30 && sunny){
+  console.log("The weather is good")
+}else{
+  console.log("The weather is bad")
+}
+ */
